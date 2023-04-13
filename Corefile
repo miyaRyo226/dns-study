@@ -1,0 +1,9 @@
+. {
+  any
+  log
+  errors
+  hosts {
+    172.25.10.11 example.local
+    172.25.10.11 *.example.local
+  }
+}
